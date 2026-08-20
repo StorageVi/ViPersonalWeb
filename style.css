@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif');
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+img{
+  width: 100%;
+}
+body{
+  background-color: rgb(25 24 39);
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header {
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(rgba(56, 90, 202, 0.4), rgba(77, 59, 240, 0.4)), url('images/darklightcrop.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.header-title {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  padding: 15px 35px;
+  border-radius: 25px;
+  color: #b0c4de;
+  font-size: 2.2rem;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.profile-box {
+  background-color: #2b2b45;
+  padding: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 180px;
+}
+
+.profile-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #8292c0;
+  margin-bottom: 12px;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+  color: #e0e0e0;
+}
+
+.profile-quote {
+  font-size: 0.85rem;
+  color: #a0a0b0;
+}
+
+.intro-text {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #d8d8e6;
+}
+
+.hero-text{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(darklightweb.jpg);
+  text-align: center;
+  line-height: 2;
+}
+
+div{
+  display: inline-block;
+  background: lightblue;
+  width: auto;
+}
+
+.section-title{
+  width: 20%;
+  background-color: rgb(85 83 145);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+}
+
+.section-title p{
+  text-align: center;
+  color: #459dd8;
+  padding: 0 auto;
+  font-size: 60px;
+  align-items: center;
+}
+
+
+.footer{
+    background-color: rgb(77, 86, 214);
+    color: rgb(255, 255, 255);
+    padding: 3em 3em;
+}
+.footer p{
+    text-align: right;
+}
+
+
+
+
+
+
+.banner {
+  background-image: linear-gradient(rgba(33, 102, 252, 0.164), rgba(64, 31, 253, 0.5)), url(darklightweb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-content {
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.banner-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  color: #ffffff;
+  background-color: #459dd8;
+  border-radius: 5px;
+  font-weight: bold;
+}
