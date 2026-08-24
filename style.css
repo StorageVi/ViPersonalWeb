@@ -25,7 +25,7 @@ header {
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
   padding: 15px 35px;
-  border-radius: 25px;
+  border-radius: 5px;
   color: #b0c4de;
   font-size: 2.2rem;
   font-style: italic;
@@ -72,6 +72,17 @@ header {
   color: #d8d8e6;
 }
 
+.card {
+    width: 100%;
+    background-color: #3b3a63;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 .hero-text{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -81,12 +92,6 @@ header {
   background-image: url(darklightweb.jpg);
   text-align: center;
   line-height: 2;
-}
-
-div{
-  display: inline-block;
-  background: lightblue;
-  width: auto;
 }
 
 .section-title{
@@ -105,6 +110,17 @@ div{
   align-items: center;
 }
 
+.section-header {
+  width: 50%;
+  background-color: #5c5380;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
 
 .footer{
     background-color: rgb(77, 86, 214);
@@ -115,9 +131,13 @@ div{
     text-align: right;
 }
 
+.grow {
+  transition: all 0.3s ease-in-out;
+}
 
-
-
+.grow:hover {
+  transform: scale(1.5);
+}
 
 
 .banner {
@@ -149,11 +169,27 @@ div{
   text-align: center;
 }
 
-.banner-btn {
+.banner-btn:hover {
   display: inline-block;
   padding: 12px 30px;
   color: #ffffff;
   background-color: #459dd8;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.banner-btn:active {
+  display: inline-block;
+  padding: 12px 30px;
+  color: #ffffff;
+  background-color: #a3becf;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.banner-btn{
+  display: inline-block;
+  padding: 12px 30px;
+  color: #ffffff;
+  background-color: #336b91;
   border-radius: 5px;
   font-weight: bold;
 }
