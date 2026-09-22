@@ -85,7 +85,7 @@ header {
     display: flex;
     gap: 20px;
     align-items: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px rgba(129, 122, 228, 0.3);
     max-width: 1000px;
 }
 
@@ -126,9 +126,13 @@ header {
 
 .info-text {
     font-size: 0.82rem;
-    line-height: 1;
     color: #d0d0f1;
+    display: grid;
+    place-content: center;
+    max-width: 500px;
+    margin-inline: auto;
 }
+
 
 .interests-block {
     width: 100%;
