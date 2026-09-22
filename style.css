@@ -55,6 +55,7 @@ header {
   object-fit: cover;
   border: 2px solid #8292c0;
   margin-bottom: 12px;
+  filter: grayscale(100%);
 }
 
 .profile-name {
@@ -125,12 +126,8 @@ header {
 
 .info-text {
     font-size: 0.82rem;
-    line-height: 1.6;
-    color: #adaddf;
-}
-
-.info-list p {
-    margin-bottom: 4px;
+    line-height: 1;
+    color: #d0d0f1;
 }
 
 .interests-block {
@@ -155,7 +152,7 @@ header {
     font-size: 0.85rem;
     line-height: 1.6;
     max-width: 550px;
-    color: #d8d8e6;
+    color: #cecece;
 }
 
 .divider {
