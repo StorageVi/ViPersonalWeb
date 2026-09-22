@@ -71,7 +71,7 @@ header {
 }
 
 .intro-text {
-  font-size: 0.85rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: #babaf1;
 }
@@ -86,7 +86,12 @@ header {
     gap: 20px;
     align-items: center;
     box-shadow: 0 4px 10px rgba(129, 122, 228, 0.3);
-    max-width: 1000px;
+    max-width: 1200px;
+    transition: 0.3s ease-in-out; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
 }
 
 .hero-text{
@@ -118,19 +123,23 @@ header {
 
 /* Content Blocks */
 .media-img {
-    width: 220px;
-    height: 180px;
+    width: 250px;
+    height: fit-content;
     object-fit: cover;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .info-text {
-    font-size: 0.82rem;
+    font-size: 18px;
     color: #d0d0f1;
     display: grid;
     place-content: center;
-    max-width: 500px;
+    max-width: 600px;
     margin-inline: auto;
+}
+
+.info-text p {
+    margin: 5px 0;
 }
 
 
@@ -153,7 +162,7 @@ header {
     text-align: center;
 }
 .interests-text {
-    font-size: 0.85rem;
+    font-size: 1rem;
     line-height: 1.6;
     max-width: 550px;
     color: #cecece;
