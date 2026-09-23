@@ -11,6 +11,7 @@ body{
   font-style: normal;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -118,7 +119,7 @@ header {
 }
 
 .section-header.blue {
-    background-color: #7287bf;
+    background-color: #5e6f9c9a;
 }
 
 /* Content Blocks */
@@ -145,8 +146,8 @@ header {
 
 .interests-block {
     width: 100%;
-    background: linear-gradient(to bottom, #53c1dd00 0%, #3455c0 70%);
-    padding: 40px 30px;
+    background: linear-gradient(to bottom, #53c1dd00 0%, #7f91ccb2 70%);
+    padding: 20px 20px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -165,7 +166,7 @@ header {
     font-size: 1rem;
     line-height: 1.6;
     max-width: 550px;
-    color: #cecece;
+    color: #bbb2c5;
 }
 
 .divider {
