@@ -58,10 +58,18 @@ header {
 
 .profile-name {
   font-weight: bold;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-family: 'Inria Serif', serif;
   margin-bottom: 4px;
-  color: #bdcdce;
+  color: #92b5e9;
+  animation: colorCycle 6s ease-in-out infinite; 
+}
+
+@keyframes colorCycle {
+  0%, 100% { color: #b2f0f5; }
+  33%      { color: #7666ff; }
+  66%      { color: #bdcdce; }
+  100%     { color: #6a81e9; }
 }
 
 .profile-quote {
@@ -141,7 +149,6 @@ header {
 .info-text p {
     margin: 5px 0;
 }
-
 
 .interests-block {
     width: 100%;
