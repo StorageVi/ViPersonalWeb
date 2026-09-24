@@ -22,17 +22,17 @@ header {
 }
 
 .header-title {
-  background-color: rgba(17, 97, 245, 0.342);
+  background-color: rgba(142, 156, 218, 0.815);
   margin-top: 20px;
   backdrop-filter: blur(5px);
   padding: 20px 100px;
   border-radius: 10px;
-  color: #8fa1b8;
+  color: #466a99;
   font-size: 2.2rem;
   font-style: italic;
   font-family: monospace;
   letter-spacing: 10px;
-  text-shadow: 1px 1px 3px rgba(127, 110, 228, 0.76);
+  text-shadow: 1px 1px 3px rgba(109, 98, 173, 0.863);
 }
 
 .profile-box {
@@ -90,7 +90,7 @@ header {
 }
 
 .card:hover {
-    transform: scale(1.05); 
+    transform: scale(1.2); 
 }
 
 .hero-text{
@@ -106,8 +106,8 @@ header {
 
 .section-header {
   width: 30%;
-  background-color: #5d67f385;
-  color: #ffffff;
+  background-color: #5d67f34d;
+  color: #d4cbeee5;
   text-align: center;
   padding: 16px;
   font-size: 1.5rem;
@@ -118,7 +118,7 @@ header {
 }
 
 .section-header.blue {
-    background-color: #5e6f9c9a;
+    background-color: #5e6f9c5b;
 }
 
 /* Content Blocks */
