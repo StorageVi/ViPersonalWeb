@@ -9,8 +9,7 @@ body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background: linear-gradient(to bottom, #3e3e92 0%, #1a14532d 100%), url('images/background.jpg') center/cover no-repeat;
-  filter: color-adjust(contrast(1.2) brightness(1.1));
+  background: linear-gradient(to bottom, #3e3e92 0%, #1a145371 100%), url('images/background.jpg') center/cover no-repeat;
 }
 
 header {
@@ -23,21 +22,35 @@ header {
 }
 
 .header-title {
-  background-color: rgba(142, 156, 218, 0.815);
   margin-top: 20px;
   backdrop-filter: blur(5px);
   padding: 20px 100px;
   border-radius: 10px;
-  color: #466a99;
+  color: #7e9bc0;
   font-size: 3rem;
   font-style: italic;
   font-family: monospace;
   letter-spacing: 10px;
   text-shadow: 1px 1px 3px rgba(109, 98, 173, 0.863);
+  background: linear-gradient(-45deg, #8e9cda9c, #4f3bbe, #2a6aa5, #539dff5e);
+  background-size: 400% 400%;
+  animation: moveGradient 15s ease infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .profile-box {
-  background-color: linear #2b2b45;
+  background-color: #2b2b45;
   padding: 20px;
   border-radius: 25px;
   display: flex;
@@ -86,14 +99,14 @@ header {
 
 .card {
     width: 100%;
-    background-color: #4d5186f5;
+    background-color: #4d5186c9;
     border-radius: 4px;
     padding: 20px;
     margin-top: 10px;
     display: flex;
     gap: 20px;
     align-items: center;
-    box-shadow: 0 4px 10px rgba(129, 122, 228, 0.3);
+    box-shadow: 0 4px 10px rgba(231, 230, 255, 0.384);
     max-width: 1200px;
     transition: 0.3s ease-in-out; 
 }
@@ -115,7 +128,7 @@ header {
 
 .section-header {
   width: 30%;
-  background-color: #5d67f34d;
+  background-color: #5d67f3a6;
   color: #d4cbeee5;
   text-align: center;
   padding: 16px;
@@ -128,7 +141,7 @@ header {
 }
 
 .section-header.blue {
-    background-color: #5e6f9c5b;
+    background-color: #5e6f9cda;
 }
 
 /* Content Blocks */
@@ -154,7 +167,7 @@ header {
 
 .interests-block {
     width: 100%;
-    background: linear-gradient(to bottom, #53c1dd00 0%, #7f91ccb2 70%);
+    background: #566d8b59;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -185,7 +198,7 @@ header {
 }
 
 .footer{
-    background-color: rgb(84, 89, 151);
+    background: linear-gradient(to bottom, #3a2f9cce, #65729b);
     color: rgb(255, 255, 255);
     padding: 3rem 1rem;
 }
